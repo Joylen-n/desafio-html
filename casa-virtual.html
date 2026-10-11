@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Herói das Chamas</title>
+</head>
+<body>
+
+    <!-- INÍCIO / RUA -->
+    <div id="rua">
+        <h1>👨‍🚒 Herói das Chamas</h1>
+        <p>És um bravo bombeiro, a tua missão é encontrar a divisão que ainda tem uma pessoa nesta casa em chamas!</p>
+        
+        <h2>Localização: Rua</h2>
+        <p>Depressa! Estás na rua, em frente à casa.</p>
+        <p>O que fazes?</p>
+        <ul>
+            <li><a href="#sala">Entro na sala pela porta</a></li>
+            <li><a href="#quarto1">Entro no quarto pela janela</a></li>
+        </ul>
+        <br><br><br><br><br><hr>
+    </div>
+
+    <!-- SALA -->
+    <div id="sala">
+        <h2>Localização: Sala</h2>
+        <p>Estás na sala de estar.</p>
+        <p>Para onde queres ir?</p>
+        <ul>
+            <li><a href="#rua">Saio para a rua pela porta</a></li>
+            <li><a href="#corredor">Vou para o corredor</a></li>
+            <li><a href="#quarto1">Entro no quarto pela porta</a></li>
+        </ul>
+        <br><br><br><br><br><hr>
+    </div>
+
+    <!-- QUARTO 1 (Canto inferior direito) -->
+    <div id="quarto1">
+        <h2>Localização: Quarto</h2>
+        <p>Estás num dos quartos, mas não há ninguém aqui.</p>
+        <p>Para onde queres ir?</p>
+        <ul>
+            <li><a href="#rua">Saio para a rua pela janela</a></li>
+            <li><a href="#sala">Vou para a sala pela porta</a></li>
+        </ul>
+        <br><br><br><br><br><hr>
+    </div>
+
+    <!-- CORREDOR -->
+    <div id="corredor">
+        <h2>Localização: Corredor</h2>
+        <p>Estás no corredor da casa.</p>
+        <p>Para onde queres ir?</p>
+        <ul>
+            <li><a href="#sala">Volto para a sala</a></li>
+            <li><a href="#cozinha">Vou para a cozinha</a></li>
+            <li><a href="#quarto2">Entro no quarto à esquerda pela porta</a></li>
+        </ul>
+        <br><br><br><br><br><hr>
+    </div>
+
+    <!-- COZINHA -->
+    <div id="cozinha">
+        <h2>Localização: Cozinha</h2>
+        <p>Estás na cozinha.</p>
+        <p>Para onde queres ir?</p>
+        <ul>
+            <li><a href="#corredor">Volto para o corredor</a></li>
+            <li><a href="#banheiro">Entro no banheiro pela porta</a></li>
+            <li><a href="#quarto2">Entro no quarto pela porta</a></li>
+        </ul>
+        <br><br><br><br><br><hr>
+    </div>
+
+    <!-- BANHEIRO -->
+    <div id="banheiro">
+        <h2>Localização: Banheiro</h2>
+        <p>Estás no banheiro. Está vazio!</p>
+        <p>Para onde queres ir?</p>
+        <ul>
+            <li><a href="#cozinha">Volto para a cozinha pela porta</a></li>
+        </ul>
+        <br><br><br><br><br><hr>
+    </div>
+
+    <!-- QUARTO 2 (Objetivo - Destino) -->
+    <div id="quarto2">
+        <h2>Localização: Quarto Principal</h2>
+        <p><strong>Parabéns!</strong> Encontraste a pessoa no quarto e conseguiste resgatá-la!</p>
+        <p>O jogo foi concluído com sucesso.</p>
+        <ul>
+            <li><a href="#rua">Jogar novamente</a></li>
+        </ul>
+        <br><br><br><br><br><hr>
+    </div>
+
+</body>
+</html>
